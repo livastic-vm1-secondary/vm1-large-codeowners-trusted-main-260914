@@ -1,8 +1,1 @@
-pull_request_rules:
-  - name: VM1_LARGE_CODEOWNERS_TRUSTED_MAIN_IMPACT
-    conditions:
-      - base = main
-      - title = VM1_LARGE_CODEOWNERS_TRUSTED_MAIN_IMPACT
-      - github-code-owner-review-satisfied = true
-    actions:
-      merge: {}
+pull_request_rules: []
